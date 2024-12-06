@@ -1,0 +1,26 @@
+div{
+    background-color: azure;
+    margin: 100px;
+    border-bottom: 2px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.ext{
+    height: 100px;
+    background-color: azure;
+    color: blue;
+    text-align: center;
+    padding-top: 60px;
+   /* font-size: larger;
+    font-weight: bold   ;
+*/
+}
+.brdr{
+    border: 2px groove yellow;
+}
+.brdr1{
+    border: 2px dashed black ;
+    border-radius: 100%;
+}

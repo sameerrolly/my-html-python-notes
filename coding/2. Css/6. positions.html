@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+      h1 {
+        color: orange;
+        text-align: center;
+        margin: 10px;
+        text-decoration: underline;
+        text-transform: uppercase;
+      }
+      header {
+        color: wheat;
+        background-color: black;
+        height: 40px;
+      }
+      li {
+        display: inline;
+      }
+      /* static position */
+      .cont {
+        background-color: aquamarine;
+        color: black;
+      }
+      .box {
+        background-color: red;
+        text-align: center;
+        height: 80px;
+        width: 80px;
+        position: relative;
+        left: 620px;
+      }
+      .conta{
+        background-color: violet;
+        /* non static bna do i.e relative position krdo */
+        position: relative;
+      }
+      .box11{
+      
+        background-color: red;
+        position: absolute;
+        left: 600px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <!-- positions -->
+    <h1 style="text-align: center; padding: 10px; margin: 10px">
+      Position(important)
+    </h1>
+
+    <div>
+      <header>
+        <nav>
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <!-- position : relative -->
+    <h1>relative position</h1>
+
+    <div class="cont">
+      on relative position only the relative object will move like we applied
+      relative position on box div inside a container div
+      <mark>
+        (relative position kiti box di inside a container te klla box hi move
+        krega )</mark
+      >
+      <div class="box">box</div>
+    </div>
+
+    <!-- position : absolute -->
+    <h1>absolute position</h1>
+
+    <div class="conta">  
+        <!-- relative div krdo(non-static) -->
+      Absolute position jinu v laaiye oh poore html page te move krega even ki
+      navbar te footer te v jaa sakda<br />
+      unless ohde parent class nu jado tak non-static na bna diye i.e relative
+      postion kardo ede parent class di,for example hun aapa box1 div nu absolute kraage te oh saare kite move krega jado takk aapa conta div nu relative(non-static) ni krde 
+      <!-- absolute div krna box11 div nu -->
+      <div class="box11">absolute div postiones box di </div>
+    </div>
+<hr><br><br><br>
+    <!-- fixed and sticky -->
+    <h1>fixed position</h1>
+<div>
+    fixed position is used in chat with us area on sides of website which moves along with scrolling
+    
+</div>
+<h1>sticky position</h1>
+
+<div>basically used in navbar or header that moves along scrolling down and navbar also moves along the scroll and make z index 1 : z index jeda oh upper show rahu hamesh ode utte koi div ni aau scroll krde tym basically aapa main use krna ehnu jado aapa navbar bnani te scroll krde tym koi v cheeej ede ute naa aave ta <mark> stikcy te z-index use krna</mark></div>
+  </body>
+</html>

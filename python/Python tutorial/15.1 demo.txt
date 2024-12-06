@@ -1,0 +1,19 @@
+demo files in python
+steps in file I/O in python:
+1.open()
+2.read/write()
+3.close()
+
+Breif:
+1. open() and read():
+
+variable =open("fileName")  #by DEFAULT Mode is r(read) in the open    #1.Open
+f=open("demo.txt")
+print(f.read())                #Read also have types read(10),readline() i.e: [print(f.readlines())]
+f.close()
+
+2.Write(): Note always write in new file other wise it will update the current file and you will loose your data
+
+f=open("demo.txt","w") 
+print(f.write("Message you want to print in files"))
+f.close()

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Callbacks and async </h1>
+    <p>synchronous programming :  step by step (1st program end then 2nd starts and so on ) <br>
+       Asynchronous programming : don't wait for flow of execution of 1st code and starts 2nd code execution immidiately.
+    </p>
+    <main><h4> Asynchronous functions : <br> </h4>
+        1. setTimeout
+    </main>
+    
+<h1>callback hell</h1>
+<p>nested callback stacked below one another , on the tyme of calling a function <br>
+function abc(...)
+abc(1,()=>{ abc(2,()=>{abc(3,=()={abc(4)})})})
+</p>
+<h1>Promises :To overcome callback hell complexicity</h1>
+<p>Syntax: new Promises((resolve,reject)=>{...console....reject("invalid")/resolve("succes  ")})</p>
+    <script src="callbacks.js"></script>
+</body>
+</html>

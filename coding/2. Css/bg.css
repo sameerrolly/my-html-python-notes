@@ -1,0 +1,36 @@
+*{
+    padding: 6px;
+    margin: px;
+}
+
+
+h1{
+    color: gray;
+    text-decoration: underline;
+    text-align: center;
+}
+div{
+    border: 2px solid silver;
+    margin-top: 20px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background: green;
+}
+.box2{
+    
+    background: rgb(38, 0, 128);
+    opacity: 0.3;
+}
+.box3{
+    background-color: brown;
+    opacity: 1;
+}
+.img{
+    background-image: url("7.jpg");
+    height: 200px;
+    width: 200px; 
+    background-size:cover;
+}

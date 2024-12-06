@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVENTS IN JS</title>
+    <style>
+      h1{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+ <h1>1.events using inside html <mark>(inline handling)</mark></h1>
+ <script src="events.js"></script>
+ <ul>
+    <li>Mouse events(on click,double click)</li>
+    <li>keyboard events(keypress, keyup,keydown)</li>
+    <li>form events(submit)</li>
+    <li>print events ....</li>
+ </ul>
+ <button onclick="alert('this is button');console.log('button is clicked by onclick event')">submit</button>
+ <button ondblclick="alert('dblclick')">click  2 times</button>
+ <center><mark>note:always use 'single quotes' in js on events</mark></center>
+
+ <h1>2.events using in js </h1>
+
+ <div>
+  <main> Syntax for events in js : <br>
+  <center>node.event=()=>{ events handling here }</center>
+  </main>
+  <button id="btn12">butooon</button>
+ </div>
+
+ <h1>Event listners</h1>
+
+ <h3><mark>1.node.addEventListener(event,callback) <br><br>2.node.removeEventListener(event,callback)</mark></h3>
+
+ <button id="mode">button</button>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+creating a new file using open and write 
+dkjsdm ,s f,
+hjdbsdkjn sk data
+new lines added using append 
+ now use read()

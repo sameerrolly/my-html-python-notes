@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid.css">
+    <title>Css Grid</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+
+    <div class="brief"> Grid properties
+        <ol>
+        <li>grid-row-gap: 10px; :---- 10px da gap paandi as margin on rows</li>
+        <li>grid-column-gap: 10px; :----10px da gap paandi as margin on columns</li>
+        <li>grid-template-columns: auto auto;   :---- jini vari auto kraa ge ohni tym line wise aan ge and <mark>adjust v kr sakde apne saab naal grid layout</mark>
+        </li>
+    </ol>
+    </div>
+    <h1>Example of grid-template-colums : 30px 10px auto 10px;</h1>
+
+    <div class="container1">
+        <div class="item1">1</div>
+        <div class="item1">2</div>
+        <div class="item1">3</div>
+        <div class="item1">4</div>
+    </div>
+
+    <h1>Note: always make <mark> display: grid to container and aplly properties on container</mark></h1>
+<br><hr><hr><br><br>
+<h1>media query : RESPONSIVE DESIGN</h1>
+
+<H3>
+   <mark>SYNTAX :<u>  @media screen and (max-width:600px)</u><br> </mark>  {<br>
+    body{
+       background-color: blue;
+    }   <br>
+    .item1{
+   background-color:brown;
+    } <br>
+       
+   }</H3>
+
+</body>
+</html>

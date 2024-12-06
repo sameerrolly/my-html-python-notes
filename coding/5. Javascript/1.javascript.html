@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link rel="stylesheet" href="1.object.js" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
+        background-color: azure;
+        padding: 12px;
+      }
+      ul {
+        padding: 4px;
+        margin: 10px;
+        margin-left: 30px;
+        /* background-color: brown; */
+        /* text-align: center; */
+      }
+      li {
+        background-color: blanchedalmond;
+        padding: 4px;
+        margin: 4px;
+      }
+      p {
+        padding: 6px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="1.object.js"></script>
+    <script src="data types.js"></script>
+    <script src="operators.js"></script>
+    <script src="array.js"></script>
+    <script src="loops.js"></script>
+    <script src="functions.js"></script>
+    <script src="methods & fn.js"></script>
+
+    <div>
+      <h1>Javascript</h1>
+
+      <ul type="none">
+        <h1>
+          <li>
+            1. Objects <br />
+            <p>
+              to see single value of key , use this :
+              console.log(object-name.keyname);<br />const obj = { Name
+              :'sameer', class : "mca", rollno : 123 } <br />
+              console.log(obj);<br />
+              <mark> for single key value: console.log(obj.KEYNAME); </mark>
+            </p>
+          </li>
+          <br />
+          <hr />
+          <li>
+            2. Variables in js <br /><br />
+            3 variables are in js : <mark> var , let , const </mark><br />
+            1. let : can't redeclared (ik vari jado declare krdo fr dubara same
+            name te declare nhi hoouga ) <br />
+            2. const : const variable di value iko vari declare hou change ni
+            hou dubara jo ik vari rakhti <br />
+            3. var : is updatable and not a block scope
+          </li>
+          <hr />
+          <br /><br />
+          <li>
+            3. Hoisting in js <br /><br />
+            <p>
+              only difference in hoisting is using var variable shows undefined
+              values and on other hand const, let shows error <br />
+              <mark>
+                hositing means consoling or print before declaration <br />
+                i.e : console.log(x) <br />
+                x=10 <br />if var x =10 result is undefined and using const/let
+                x=10 result will be error
+              </mark>
+            </p>
+          </li>
+        </h1>
+      </ul>
+    </div>
+    <!-- Data Typed in js  -->
+    <div>
+      <br />
+      <hr />
+      <h1>Data types</h1>
+      <br /><br />
+      <h1>1.Primitive data types</h1>
+
+      <ul>
+        <li>Numbers (10)</li>
+        <li>String ("hello")</li>
+        <li>Boolean (True/Flase)</li>
+        <li>Symbol</li>
+        <li>undefined (let x)</li>
+      </ul>
+      <h1>2.Structural data types</h1>
+      <ul>
+        <li>
+          <mark> OBJECTS </mark>
+          <ol>
+            <li>Functions</li>
+            <li>Arrays</li>
+            <li>maps</li>
+            <li>Sets</li>
+            <li>Date</li>
+            <li>null : STRUCTURAL ROOT DATA TYPE</li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+    <!-- Ternary operators -->
+    <div>
+      <h1>Ternary operator</h1>
+      <p>
+        "TERNARY OPERATOR'S SYNTAX" :<mark>
+          CONDITION ? 'IF TRUE THIS WORKS' : 'IF FALSE THIS WORKS' ;
+        </mark>
+        )
+      </p>
+    </div>
+    <!-- Arrays -->
+    <div>
+    <h1>Arrays in js</h1>
+    <Main><center><mark>METHODS IN ARRAY</mark></center></Main>
+  <ol>
+    <li>push (add Last element in array)</li>
+    <li>Pop (remove last element in array)</li>
+    <li>unshift(Add 1st element in array) </li>
+    <li>shift (remove 1st element in array)</li>
+    <li>for loop</li>
+    <li>forEach loop</li>
+    <li>filter</li>
+    <li>slice</li>
+    <li>splice (for replacement )</li>
+  </ol>  
+</div>
+    <!-- Loops  -->
+<div>
+  <h1>Loops in js </h1>
+   <ul>
+    <li>for loop</li>
+    <li>while loop</li>
+    <li>do while</li>
+   </ul>
+</div> 
+    <!-- Functions -->
+    <div>
+      <h1>Functions</h1>
+      <p>function fname(arg1,arg2..){ logic } <br>
+      fname();  
+    <!-- invoke or calling a function -->
+      </p>
+      <p><mark>arguments are block scope and local variable of function , block scope means , arguments passed in functions are only used in between function not outside of functions.</mark></p>
+
+      <ol>
+        <p>types of function</p>
+        <li>simple function : function fname(){code} <br>  fname(); * calling function*</li>
+        <li>return function : using return keyword </li>
+        <li>arrow function : variable fname=(arg1,arg2...)=>{ <br>* code* <br>}</li>
+      </ol>
+    </div>
+<!-- // methods in js  : 1. forEach  -->
+<div>
+  <h1>ForEach loops :  it is a method (method is also a function ) mainly used for Arrays with object or bind </h1>
+  <p>syntx : array-name.forEach(pass a function i'e callback function)</p>
+  <p>arrNew.forEach(function arrFn(parameter){ <br> code }</p>
+  <mark>Note : no need to recall it , forEach done recalling by itself That;s why it is known as a callback method/function</mark>
+  <h2><mark>USING ARROW FN : arr.forEch((arg)=>{code}); </mark></h2>
+</div><br><hr>
+<!-- 2.map method -->
+<h1>Map method in js</h1>
+("returns a new array with results of some operations: )
+<br>
+<p>SYNTAX <mark>
+arr.map(cllbckfn(value,index,array));</mark>
+
+</p>
+
+ </body>
+</html>

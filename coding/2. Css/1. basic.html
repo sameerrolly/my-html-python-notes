@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="css starting from scratch" />
+    <link
+      rel="shortcut icon"
+      href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEhAQDg8QEBAQEBYQEA8QERAPEBAQFREWFhYSExUkKDQgGBolHRYYITEhJikrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGjcdHSItLS0tLSs3Ny03LS0tKy0tLS0tLSs3LS8tLS0tLS0tLS0tKy0rLS0tLS0tKystLS0tLf/AABEIAOEA4QMBEQACEQEDEQH/xAAcAAEAAwADAQEAAAAAAAAAAAAABQYHAQIECAP/xABIEAABAwEDBwcHCgUCBwAAAAABAAIDBAUREgYHITFRUpETF0FxkpPRIjJTYaGxwRQVFiNCVGKBosIIM2NysnOjJDRDgoPS4f/EABoBAQACAwEAAAAAAAAAAAAAAAAEBQIDBgH/xAAvEQEAAQMBBAkEAwEBAAAAAAAAAQIDEQQFMVFhEhQVITJScZGhIiNBgUKxwfDh/9oADAMBAAIRAxEAPwDcUBAQEBAQEBBleefLGus6WjbRStjEscrn3sa+8tcwDXq84oM552bZ+8s7mNA52bZ+8s7mNBquZrKirtGGqfWSCR0UzWMIY1lzTGD0esoM5t/Oha8VVVRR1DAyKpljYORjNzGyOaBf06Ag8HOzbP3lncxoHOzbP3lncxoNLzMZXVtomtFbK2TkRFydzGsux8pi1a/NCCpZdZx7Upa+rp4KhrYopcLGmJjiG4Wm6/p1oIHnZtn7yzuY0DnZtn7yzuY0F9zP5bV9oVU0VZM2RjIMbQI2MudjuvvCDXUBAQEBAQEBAQEBAQEBAQEBBhn8Rn86z/8ASm/zjQUvNlYEFoVzaaqDjEYZHkMcWOxNw3aR1oNi5mLI3ajv3oLNklkjS2WyRlGHhsrg9+N5ecQF2gn1IMozyZvTC59o0TC6J7i+qibpMTibzMBuk69l9+q+4MljcAQSA4Aglp0Bwv1XoNzyIyRyftWATQwvbI25s8BmfjheRqO1p6DqP5FBfsl8j6OzTKaONzOWw8pie59+C+7Xq84oM9zx5uzLjtKhaXS3YqqBukyNA/msG8BrHSBt1hhxQbRm6ybsK1YbzA6OqiAE8PLP1+kZtYfZqQaNk1kPQWdI6Wjjcx72YHEvc8Ft9+ooLIgICAgICAgICAgICAgICAgIMM/iM/nWf/pTf5xoK3mVnZHajHSPaxvyeUYnuDRf5Oi8oPoj55pfvMHex+KD0U1XFLeYpGSAaCWOa+4+u5BzJNGQWucwg3hzSW6RqIIQfPednINtE81dFhdSSO8tjXAmmkcdAu3D0HoOjpCCn5KZRz2bUNqac6R5MkZPkyx36WO8egoPqHJPKWntKnbU0ztB8mSM+fFIBpjeOg+8EEIJR07BoL2g9ILhegwzO9kAyMvtCz8BjccVTAwt+rJ1ysGwnWPzQZpYlrz0U0dTTPLJYzeDrDh0scOlp6Qg+nshcsILVgEsdzJWXNngJ8qN93RtaegoLKgICAgICAgICAgICAgICAgIMQ/iIge6az8DHuuimvwtc67y49dyDIjRSnXDL3b/AAQcfIJPQSd0/wAEG4/w8QOZT1ocxzL6hpAc0t0ckOhBkOVNC81tcRC831k5v5N5v+udpvuQRgoZBqgkH/if4IO3yOX0Mvdv8EGr/wAPccjamtDmyNaadhuc1zQSJDp06zp9qCm5zqN7rVryInuBn1iNzgfIb03IKwKCTogk7p/gg7fI5fQy92/wQaJmIilZaZxMkY00kl97XNaSHx3X7en2oPodAQEBAQEBAQEBAQEBAQEBAQdXxg6wD1gFB15Bm43shA5Bm43shB2YwDUAOoAIOphbut4BA5Bm43shA5Bm43shB2ZG0agB1ABBwYWnSWtJ6gg45Bm43shA5Bm43shBy2Jo0hoB9QAQd0BAQEBAQEBAQEBAQEEBbGV9JSSGGdzw8AO8mNzhcReNKk29LcuU9KncjXdXbt1dGre8POJZ+/L3T1n1C9w+WvtCzx+DnEs/fl7p6dQvcPk7Qs8fg5xLP35e6enUL3D5O0LPH4OcSz9+Xunp1C9w+TtCzx+DnEs/fl7p6dQvcPk7Qs8fg5xLP35e6enUL3D5O0LPH4OcSz9+Xunp1C9w+TtCzx+DnEs/fl7p6dQvcPk7Qs8fg5xLP35e6enUL3D5O0LPH4OcSz9+Xunp1C9w+TtCzx+DnEs/fl7p6dQvcPk7Qs8fg5xLP35e6enUL3D5O0LPH4OcSz9+Xunp1C9w+TtCzx+DnEs/fl7p6dQvcPk7Qs8fg5xLP35e6enUL3D5O0LPH4OcSz9+Xunp1C9w+TtCzx+DnEs/fl7p6dQvcPk7Qs8fg5xLP35e6enUL3D5O0LPH4eiz8uKKeRkMTpC+R2FoMbgL/WVjXo7tFM1TuhlRrbVdUUxvlZVFSxAQEBAQEBAQZJnWjuq2HfgaeDnD4K62fObX7Um0YxdieSlqcgCAgICAgICAgICAgICAgICAgsWb+PFX042FzuywlRtZOLNSVo4zepbaqB0AgICAgICAgIMwzvR3S0rt6N7ey4H9yttmz9NUc4U+0o+umeUs/VkrRAQEBAQEBAQTLLMjIB8rSAfOWGWrpy7fNcWx3aTMvOnJ81xbHdpMydOT5ri2O7SZk6cnzXFsd2kzJ05PmuLY7tJmTpyfNcWx3aTMnTk+a4tju0mZOnKEPT1rNuW7NdHfXA7kL3f4t/coWvnFn9wm6CPvfqWwqkXogICAgICAgIM8zvxXspH7r5G9prT+1WezZ76o9FXtOO6mfVmatVSICAgICAgICCzRea3qHuWtHl3QEBAQEBB0kNwJ2An2IKwFsSF7zRxX1E792DD2pGn9qr9oz9uI5rHZsfcqnl/rVVTrkQEBAQEBAQEFJzsRX0kbtyoafyMbx4Kfs6fuTHJX7Sj7UTzZMrlSiDtG3EWtvuxODbzqF5uvXkziMvYjM4XDm6qfTw8HqB2jRwlYdm3PNBzdVPp4eD07Ro4Sdm3PNBzdVPp4eD07Ro4Sdm3PNBzdVPp4eD07Ro4Sdm3PNBzdVPp4eD07Ro4Sdm3PNBzdVPp4eD07Ro4Sdm3PNCdjyHnuH1sWodDtix6/Rwauyrnmh2+hE/pY+Dk6/RwOyrnmg+hE/pY+Dk6/RwOyrnmg+hE/pY+Dk6/RwOyrnmg+hE/pY+Dk6/RwOyrnmg+hE/pY+Dk6/RwOyrnmhXq6lMMj4nEEsdhJGom5S6K+nTFUflXXbc265on8PFWG6N5/CfctkMad6uLNvaRmfh/5t+3kmj8sZPvCq9pT4Y9VrsyPHPp/rR1VrUQEBAQEBAQEFWzlRYqCX8L43f7gB9hUzQzi9H7/pD18ZsT+v7YyrxQiDgm7SOjTw0oN7hfia1280O4gFcxMYnDqYnMZd149EBAQEEgzUOpB2QEBAQEGSWw/FPO7bM/2OI+C6CzGLdMcoclqJzdrnnKKtM3RP8AWAOJC2xvYUb0As25quaOK6mndvT3fkI2+JVPtGfriOS52bH26p5/4vSr1iICAgICAgICCDy2jxUNUNkRd2dPwUjSzi9T6o+rjNmr0YYugc6IOHDQUG4WFLjpqZ+9Txn/AGwubvRi5VHOXS2JzbpnlH9PctbaICAgIJBh0DqQc3oF6Beg5QCgxuR+Jznbzi7iSV0cRiMOOmczMo+2D9X1uHiso3vaN6EWbc2LNfHdQtO/LIeDsPwVJr5ze/ULzZ8Ys/uVtUJOEBAQEBAQEBB4bdix09Q3eheP0lbLU4riebXdjNExyfPoK6RzMbnKAg/RtRIBcJJABoAD3AAeoXrHo0z+GXSqj8uflUnpZO8f4p0KeB06uM+58qk9LJ3j/FOhTwOnVxn3PlUnpZO8f4p0KeB06uM+58qk9LJ3j/FOhTwOnVxn3PlUnpZO8f4p0KeB06uM+6yxVEmFv1kmofbdsWHRp4I811cZ93f5RJ6STtuXnRp4HTq4z7nyiT0knbcnRp4HTq4z7rlm+LnCdznOdpa0YiT0Equ1+ImmIXOyszFUzPBcFXLd+Na/DHI7dY48GkrKiM1RDC5OKJnkx1modS6OXHxueC2j5LRtd8F7S2W96HWTa2/IGPDQU3raXdpxKoNZOb1ToNHGLNKwKMlCAgICAgICAg/Opbex42tI9i9p3vJ3PneZmFzm7riOBuXTROXL4x3Oi9eCAgICAgICCzRea3qHuWtHl3QEF9zfR3QyO3pbuDB4qq18/XEcl9sqPtTPNaVAWiPyhkw01Qf6LhxF3xW7Txm7T6o+rqxZrnlLKVfOVRVtnzB1lZUtltFrJsb5kzFgpKZuyFvuXOX5zcqnm6SxGLVMckmtTcICAgICAgICAg+e7XiwTzt2Sv8A8iultzmiJ5Q5m5GK6o5y8izaxAQEBBbrMyDknijmbUxtEjA4NMbyRf0E3qBc19NFU0zTuWFvQVV0xV0t71c28v3uLupPFYdpU+WWfZlXmcc28v3uLupPFO0qfLJ2ZV5k5HkJKAP+Ij1D/pu2da87Qp8rT2TX549nb6Cy/eI+7d4rztCnynZNzzx7f+n0Fl+8R927xTtCnynZNzzx7f8AqzZO2WaWHknODzjc4uALRp9Shai7F2vpRGFnpNPNi30JnPelFoSkNlfJdSTesBvFwUnSRm9CHr5xp6mZK7cyhraPlNGxvxWVLbb3PA1t5A26OKyZ4y+hrPZhiibsjaODQuZrnNUuoo7qYehYshAQEBAQEBAQEGEZXxYK2qH9ZxHUdK6HTTm1T6Oc1MYvVeqHW9oEBAQEGwZDSYqGn9QLeDiqDWRi9U6DRzmzSnVGShBIt1DqQcoCAgIK7l2+6lu3pGj3lTNDH3f0r9pzix+4Z2rhzqDtc/WdTQs4baNz8aGPFJE3bI0fqC8rnFMy20RmqPWH0O0XADZoXMuocoCAgICAgICAgIMUziRYa+f14HcWBX2inNmFBrYxelW1KRBAQEBBqebiYGjAJHkyvGkgdN6pNfT979LzZ9X2f3K0co3ebxCh4lNzByjd5vEJiTMJBsjbhpGraExJ0oduUbtHEJiTpQco3aOITEnSh2Xj0QVTOE+6KIbZPc0qfs+Prn0VW1p+3THNRFaqJX7SN8jvyHsWcbm6jc9OTMWOrpW7Z2D8sS135xbqnkkWIzdpjm31c46QQEBAQEBAQEBAQZBnTjurQd+Bjva5vwV3oJza/aj2hGL36hT1NQRAQEBByHEaiR1EheYe5lzjO8eJTEGZ4uMbt48SmIMzxWeJ5wt0nUOk7FhiEeZl2xnaeJXmIeZkLjtOnRrK9xBmWw07MLWjY0DgFzlU5mZdhTGKYh+i8ZKVnEfpgb/c73BWWz48UqXa0+GPVTlZKdW6w3vf/cVnDfTuTWQceKvpR+Mu7LHO+C0aucWakrSRm9T/AN+G4Ln3QiAgICAgICAgICDLc7sd09M7ehc3svv/AHK32dP0VRzU20o+umeShKxVwgmMkKWKariinYHxvDgWkkAkNJGrqUfVVVUWpqpnEpOkopruxTVGYaT9D7P+6s7Uniqjrl7zLfqVjyn0Ps/7qztSeKdcveY6lY8rMcp6NkNVPFG3CxrxgaL7g0tBu9qudPXNdqmqd6m1NEUXaqY3IxbmgQWaLzW9Q9y1o8u6D9aRmKSNu9I0cXBY1zimZ5MrcZriOcf22ABc67BygoOcF980TdkZPF3/AMVtoI+iZ5qHas/cpjkq6nKtWJDeXHaSfatiRC05sY769h3IpHewN/coeunFmfWEzQRm/HpLZFRr4QEBAQEBAQEBAQZ1ngi8mkfsdK3iGH9qtNmz4o9FVtOPBPqzVWiqEEtknJhraU/1Q3tAj4rRqozZq9EjSzi9T6tnXPOiEGS5wY8NbJ+JjHfpu+CvdDObMftQ6+MX59IVxS0MQWaLzW9Q9y1o8u6D3WGzFUQD+q08NPwWq/OLdXo36WM3qY5tYVA6sQZxlxJfVEbsbR7z8Vc6KMWv25zac5v/AKhXnm4E7AT7FLQFXC2JC85pIr6qZ+7TlvakZ/6qv2jP24jn/iw2bH3Znl/rV1TroQEBAQEBAQEBAQUfO1FfSwu3agcDG8eCsNnT9yY5K7aUfbiebKFcKYQeqypME8Dt2eM/rCwuxmiqOUtlucV0zzj+26Fc06ZwgibXycpao4po733YeUa4tdcNQW+1qLlvupnuaLumt3e+qO9WK/NyNJp6gj8MrcQ4hTKNoz/Kn2Qq9mx/Cr3V2vyOrobzyBlaPtQkSfp872KXRrLNX5x6odejvUfjPp3pyzsnauUNwwOaLh5Un1Y1bDp9i8r1NqnfPt3o9Giv3N1OPXuT9HkM7XNMB+GMX+0+Ci17Qj+Me6db2TP86vZPWbk3TQEPYwl7dIe8kkHaOhRLmquVxiZ7k+zorNqcxHemFHSxBl+Vj8VXP6i1vBgV5pYxZpcxrpzqKv8Avwg6s3MefwH3KTCLG9XFm3tFzQQ6at/qjaOLyfgqzaU91Meq02ZHfVPp/rSlVLYQEBAQEBAQEBAQVTObFioZDuyRu/WB8VM0E4vR+0LaEZsz+v7Y2rxRCBiu0joIPA3pjJnDfGuvAO0A8ReuX3OqzlygICAgkGah1IOyAgICDJrbfiqKg/1njg674K/sxi3THKHJ6mc3q55yibSN0b+q7iQt0b2qner6zb2pZooroKh29MAOoMHiqjaM/XTHJcbNj6Kp5/4vqrlkICAgICAgICAgIIHLqPFQVXqjxdkgqTpJxepRtZGbNXow5X7nhAQS9n5TVkFwZO4tGpsn1jbtmnSo9eltV74SKNVdo3Ve6x0OcZ4uFRTh210TsJ4HQolezo/jV7plG0p/lT7LFQZaUMtw5YxOP2Zmln6vN9qiV6K9T+M+iXRrrNX5x6p6KVrxexzXDa0hw4qNMTG9KiYnc7rx6kGah1ID3gaSQBtJuXsRl5MxG9FVuUtJFeDMHOH2YwZD7NA4rfRpbtX490S5rrFvfVn070FWZc9EEH/dIf2jxUqjZ/mn2Qrm1vJT7oOsylq5dcpYNkYw+3WpVGltU/jPqg3Ndfr/AJY9ESTfpOknSSdZKkIjxWufqz6yB7V7G9lRvQazbmv5rY7qLFvSvPA3fBUuvn7v6hebPj7OecrgoKcICAgICAgICAgII7KKLHS1LdsL/wDErbZnFymebVejNuqOTAV0bmoEBAQEBB+tLVSRG+KR8Z2scWrGqimrxRllTVVT4ZwsFBlzWxXBzmzAdEjdPaCi16G1Vu7vRLo192nf3rHUZZVUgGDBECB5oxHVtK10aK3Tv72u5tO9V3R3IeqrJZdMsj3/ANziRw1KVTRTT4Ywg13a6/FOXnWTW5R6ICCOto+Q0bXfBZUs7e9DrJtbZm+jw0FP+IF3FxKodZOb1ToNFGLNKxqKlCAgICAgICAgICD8axt8cg2scOLSsqd8PKt0vniRtxI2EjgumctjHc6oCAgICAgILNF5reoe5a0eXdAQEH5yTNb5zgOsoREy8ktqRjVe7q0DiveiziiUdWVpluvaABq03lZRGGdNOHmXrJvOScWCjpW7IW+0XrndRObtU83SaaMWqY5JZaW4QEBAQEBAQEBAQcEIMXtnIuuie9whMjC9zgYyH+SSTpGtXtrV2qoiM4nmoLuju0zM4zHJXJonMOF7XMduuBaeBUqJie+EWYmJxPc6L14ICAgICCyxm5rb9Gga+pa0f8vxlr42/avOxule4ZRTMvHLa+4z83H4L3osot8XklrpHa3EepugL3DOKYh5ydq9eiDljC43NBcTqABJPUE3d73f3QnLPyOrp/Ngcxp+1J9WPbpUevVWqN8+zfRpL1e6MeraqCDk4oozrZG1pu1XhoCoa5zVMugojFMQ9CxZCAgICAgICAgICAgIPNWUEMwwzRRyA9D2tcsqa6qe+mcMaqKaoxVGVatHN5Qy3mMPgd/TcS2/+03+y5S6Nfdp396HXs+1Vu7vRWLRzZ1DbzBLHKOgOvjd4KXRtCifFGESvZ1ceGcqxaGT9XT38tTyNA+0G4m9d41KXRft1+GUSuxco8VKMW1pEBB2e8nWSes3oYdUBB77PsapqLuQgkeD9oNIb2joWuu7RR4pw2UWq6/DGVns7NtVPuMz44Rs0vdwGhRK9oW48MZTKNnXJ8U4Wez83FFHcZjJOdjncmzg3T7VEr2hcnw9yXRs61Hi7/8AuSzUNl08AughjjH4GAH8z0qJXcrr8U5S6LVFEYpjD2LBsEBAQEBAQEBAQEBAQEBAQEBAIQRNpZNUVRfy1NGXH7bRyb+0Lit1Gou0eGpouaa1c8VKsWjmygdeaeZ8Z3X3SN461Lo2jVHijKJXs2ifDOFXtHICuivLGNmaOmNwxdkqXRrrVW+cIdehvU7u/wBH52dkJXzaTEIm7ZXAHgNK9r1tqn859HlGivVfjHqtFnZsYxcamoc/a2IBg4nSole0Z/jHumUbNp/nOfRZrNyToae4x0zC4fbkvldftBdfd+Si16q7Xvq/xLt6WzRup/1NAAahco6Q5QEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQf/2Q=="
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>css</title>
+    <style>
+      .sec {
+        color: brown;
+      }
+      #sect {
+        color: #000;
+        /* internal css  of intr class */
+      }
+      .intr {
+        padding: 60px;
+        margin: 80px;
+        margin-bottom: 0px;
+        color: blueviolet;
+        text-align: center;
+        background-color: bisque;
+      }
+      .red{
+        color: gray;
+      }
+      .blue{
+        background-color: gray ;
+        height: 100px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!--1.Types of css -->
+
+    <div>
+      basics
+      <div class="container">
+        <div>
+          Css 1st class
+          <br /><br />
+          <section class="sec">for class : div.container is used</section>
+          <section class="sec" id="sect">
+            for id : div#container is used
+          </section>
+        </div>
+      </div>
+      <hr />
+      <!-- <div class="conatainer" style="text-align: center"> -->
+      Types of using css
+      <span style="background-color: red; color: aquamarine">
+        <!-- note: bg color not working in span  -->
+        <ul type="none">
+          <li>inline</li>
+          <li>internal</li>
+          <li>external</li>
+        </ul>
+      </span>
+      <!-- </div> -->
+      <hr />
+      <!-- inline css -->
+      <h2>Inline css</h2>
+      <section>Inline css is used inside tags using style attribute</section>
+      <div
+        style="
+          background-color: aqua;
+          height: 100px;
+          text-align: center;
+          padding-top: 60px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        "
+      ></div>
+      <hr />
+      <br />
+      <h2>Internal css</h2>
+      <div class="intr">this is internal css</div>
+      this is inline css
+      <h2>Internal css</h2>
+      <div class="ext">this is external css using link tag inside head</div>
+      <hr />
+      <br />
+    </div>
+
+    <!--2. Css Selectors -->
+
+    <div style="text-align: center; background-color: azure; padding-top: 20px">
+      <h1>Css Selectors</h1>
+
+      <span class="container">
+        <main>
+          <h3 style="text-align: start">
+            1.Universal selector using *<br />
+            2.element selector (h1{property:Value;}) <br />
+
+            3.id selector using #h1{property:Value;} <br />
+            4.class selector using .
+            <div class="h1">property:Value;</div>
+            <br />
+            5. Grouping selector : h1,p,main {p:v;}
+          </h3>
+        </main>
+      </span>
+      <hr />
+    <br />
+    </div>
+    
+    <!--3. COMMENTS -->
+    <div>
+      <h1>comments</h1>
+      <h3><main style="text-align: center">Comments using /* css */</main></h3>
+      <br />
+      <hr />
+    </div>
+   
+   <!--4.  multiple css   -->
+    <div>
+<div class="red blue">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolores aut sed harum.
+</div>
+<hr><br>
+    </div>
+   
+    <!-- 5. colors  -->
+
+    <div>
+      <div class="clr" style="color:black ; background-color:gray; ">there are three types in color category <br><li>rgb</li>
+      <li>HSL</li>
+      <li>HEX</li></div>
+    <main> we can use colors on <span><h3>text, background and border </h3></span></main>  
+    </div>
+<!-- 6.borders -->
+<div>
+  <h1>border</h1>
+
+  <div class="brdr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, ea?</div>
+  <div class="brdr1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, ea?</div>
+</div>
+
+  </body>
+</html>
+
+
